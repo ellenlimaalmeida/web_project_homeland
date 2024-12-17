@@ -1,0 +1,35 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/title.css);
+
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  background-color: #2a2c2f;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 3px;
+}
+
+.logo {
+  width: 254px;
+  height: 70px;
+  margin: 34px auto 90px;
+  font-family: "Inter";
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image {
+  max-width: 984px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 615px;
+  object-fit: cover;
+}

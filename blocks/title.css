@@ -1,0 +1,30 @@
+.title {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  font-family: "Inter";
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: 720px;
+    margin: 0 auto 35px;
+    font-size: 4.68rem;
+    color: #ffffff;
+    line-height: 79px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    max-width: 720px;
+    margin: 0 auto 35px;
+    font-size: 4.68rem;
+    color: #ffffff;
+    line-height: 79px;
+  }
+}
