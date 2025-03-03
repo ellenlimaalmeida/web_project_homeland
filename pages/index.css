@@ -1,35 +1,144 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/title.css);
+@import url(../blocks/pages.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/header.css);
+@import url(../blocks/location.css);
+@import url(../blocks/footer.css);
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", arial, sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
 body {
   background-color: #2a2c2f;
 }
 
 .page {
-  background-color: #2a2c2f;
   max-width: 1280px;
   margin: 0 auto;
-  border: 3px;
+  border: 3px solid red;
 }
 
-.logo {
-  width: 254px;
-  height: 70px;
-  margin: 34px auto 90px;
-  font-family: "Inter";
-  font-size: 2.25rem;
+.header {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__brand {
+  max-width: 254px;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__logo {
+  max-width: 254px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.header__title {
+  max-width: 720px;
+  margin: 90px auto 32px;
+  font-size: 96px;
   font-weight: 900;
   line-height: 100px;
   text-align: center;
+}
+
+.header__description {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.header__image {
+  max-width: 984px;
+  max-height: 615px;
+  width: 100%;
+  margin: 64px auto 0;
+  display: block;
+}
+
+.location {
+  max-width: 830px;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+
+.location__title {
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.location__subtitle {
+  max-width: 738px;
+  max-height: 68px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  top: 1425px;
+  left: 148px;
+}
+
+.location__author {
+  /* __text */
+
+  position: absolute;
+  width: 732px;
+  height: 34px;
+  right: 400px;
+  top: 1503px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  text-align: right;
+
   color: #ffffff;
 }
 
-.image {
-  max-width: 984px;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 615px;
-  object-fit: cover;
+.location__paragraph {
+  /* __text */
+
+  position: absolute;
+  width: 722px;
+  height: 182px;
+  right: 410px;
+  top: 1569px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+
+  color: #ffffff;
+}
+
+.footer__copyright {
+  position: absolute;
+  width: 166px;
+  height: 16px;
+  left: 556px;
+  top: 1843px;
 }
