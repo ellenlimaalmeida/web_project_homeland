@@ -1,0 +1,78 @@
+/* ------------TELA 1280---------- */
+@media screen and (max-width: 1280px) {
+  .location {
+    max-width: 830px;
+    margin-top: 92px;
+    margin-left: 148px;
+  }
+
+  .location__title {
+    margin-bottom: 40px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+  }
+
+  .location__subtitle {
+    margin: 40px 0 0;
+    max-width: 738px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+
+  .location__author {
+    text-align: right;
+    margin: 10px 0;
+  }
+  .location__paragraph {
+    line-height: 26px;
+    max-width: 722px;
+    font-size: 16px;
+    margin: 32px 0 0;
+  }
+}
+
+/* ----------BREAKPOINT - TELA 1024----------*/
+@media screen and (max-width: 950px) {
+  .location {
+    max-width: 760px;
+    margin-top: 92px;
+    margin-left: 68px;
+  }
+
+  .location__title {
+    margin-bottom: 40px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+  }
+
+  .location__subtitle {
+    margin: 40px 0 0;
+    max-width: 738px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+
+  .location__author {
+    text-align: right;
+    margin: 10px 0;
+  }
+  .location__paragraph {
+    line-height: 26px;
+    max-width: 722px;
+    font-size: 16px;
+    margin: 32px 0 0;
+  }
+}
+/* ------------TELA 768---------- */
+@media screen and (max-width: 768px) {
+}
+/* ----------BREAKPOINT - TELA 544----------*/
+@media screen and (max-width: 544px) {
+}
+/* -------TELA 320-------- */
+@media screen and (max-width: 320px) {
+}
