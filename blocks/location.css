@@ -1,78 +1,91 @@
-/* ------------TELA 1280---------- */
-@media screen and (max-width: 1280px) {
-  .location {
-    max-width: 830px;
-    margin-top: 92px;
-    margin-left: 148px;
-  }
-
-  .location__title {
-    margin-bottom: 40px;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 58px;
-  }
-
-  .location__subtitle {
-    margin: 40px 0 0;
-    max-width: 738px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34px;
-  }
-
-  .location__author {
-    text-align: right;
-    margin: 10px 0;
-  }
-  .location__paragraph {
-    line-height: 26px;
-    max-width: 722px;
-    font-size: 16px;
-    margin: 32px 0 0;
-  }
+.location {
+  max-width: 830px;
+  margin-top: 92px;
+  margin-left: 148px;
 }
 
-/* ----------BREAKPOINT - TELA 1024----------*/
-@media screen and (max-width: 950px) {
-  .location {
-    max-width: 760px;
-    margin-top: 92px;
-    margin-left: 68px;
-  }
-
-  .location__title {
-    margin-bottom: 40px;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 58px;
-  }
-
-  .location__subtitle {
-    margin: 40px 0 0;
-    max-width: 738px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34px;
-  }
-
-  .location__author {
-    text-align: right;
-    margin: 10px 0;
-  }
-  .location__paragraph {
-    line-height: 26px;
-    max-width: 722px;
-    font-size: 16px;
-    margin: 32px 0 0;
-  }
+.location__title {
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
 }
+
+.location__subtitle {
+  margin: 40px 0 0;
+  max-width: 738px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.location__author {
+  text-align: right;
+  margin: 10px 0;
+}
+.location__paragraph {
+  line-height: 26px;
+  max-width: 722px;
+  font-size: 16px;
+  margin: 32px 0 0;
+}
+
 /* ------------TELA 768---------- */
+
 @media screen and (max-width: 768px) {
+  .location {
+    max-width: 720px;
+    margin-top: 90px;
+    margin-left: 24px;
+  }
+
+  .location__title {
+    margin-bottom: 50px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .location__subtitle {
+    margin: 50px 0 0;
+    max-width: 720px;
+    font-weight: 400;
+  }
+
+  .location__author {
+    margin: 0;
+  }
+
+  .location__paragraph {
+    max-width: 720px;
+  }
 }
-/* ----------BREAKPOINT - TELA 544----------*/
-@media screen and (max-width: 544px) {
-}
+
 /* -------TELA 320-------- */
+
 @media screen and (max-width: 320px) {
+  .location {
+    max-width: 288px;
+    margin-top: 64px;
+    margin-left: 16px;
+  }
+
+  .location__title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .location__subtitle {
+    margin: 40px 0 0;
+    max-width: 288px;
+  }
+
+  .location__author {
+    text-align: right;
+    margin: 10px 0;
+  }
+
+  .location__paragraph {
+    max-width: 288px;
+  }
 }

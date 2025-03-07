@@ -16,3 +16,57 @@
   width: 100%;
   object-fit: contain;
 }
+
+/* ------------TELA 768---------- */
+
+@media screen and (max-width: 768px) {
+  .nav__brand {
+    max-width: 254px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* -------TELA 320-------- */
+
+@media screen and (max-width: 320px) {
+  .nav__brand {
+    max-width: 188px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__logo {
+    max-width: 188px;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* ----------BREAKPOINT - TELA 1024----------
+
+@media screen and (max-width: 1024px) {
+  .nav__brand {
+    max-width: 254px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}*/
+/* ----------BREAKPOINT - TELA 544----------
+
+@media screen and (max-width: 544px) {
+  .nav__brand {
+    max-width: 230px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+*/
