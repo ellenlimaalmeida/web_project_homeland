@@ -28,7 +28,6 @@
   display: block;
 }
 
-
 /* ------------TELA 768---------- */
 
 @media screen and (max-width: 768px) {
@@ -43,29 +42,28 @@
     max-height: 480px;
     margin: 30px auto 0;
   }
-
-
+}
 
 /* -------TELA 320-------- */
 
 @media screen and (max-width: 320px) {
   .header__title {
     max-width: 228px;
-    margin:  50px auto 16px;
+    margin: 50px auto 16px;
     font-size: 40px;
     line-height: 44px;
- }
+  }
 
   .header__description {
     max-width: 288px;
     margin: 0 auto 0;
     font-size: 16px;
     line-height: 20px;
-}
+  }
 
-.header__image {
-  max-width: 320px;
-  max-height: 200px;
-  margin: 40px auto 0;
+  .header__image {
+    max-width: 320px;
+    max-height: 200px;
+    margin: 40px auto 0;
+  }
 }
-
