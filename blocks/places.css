@@ -1,0 +1,24 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-inline: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    padding-inline: 16px;
+  }
+}

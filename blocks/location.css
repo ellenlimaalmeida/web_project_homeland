@@ -2,6 +2,7 @@
   max-width: 830px;
   margin-top: 92px;
   margin-left: 148px;
+  padding-right: 24px;
 }
 
 .location__title {
@@ -15,7 +16,7 @@
   margin: 40px 0 0;
   max-width: 738px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 34px;
 }
 
@@ -60,13 +61,14 @@
   }
 }
 
-/* -------TELA 320-------- */
+/* -------TELA 544-------- */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .location {
-    max-width: 288px;
+    max-width: 100%;
     margin-top: 64px;
     margin-left: 16px;
+    padding-right: 16px;
   }
 
   .location__title {
@@ -77,7 +79,7 @@
 
   .location__subtitle {
     margin: 40px 0 0;
-    max-width: 288px;
+    max-width: 100%;
   }
 
   .location__author {
@@ -86,6 +88,6 @@
   }
 
   .location__paragraph {
-    max-width: 288px;
+    max-width: 100%;
   }
 }

@@ -29,9 +29,9 @@
   }
 }
 
-/* -------TELA 320-------- */
+/* -------TELA 544-------- */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .nav__brand {
     max-width: 188px;
     margin-top: 20px;
